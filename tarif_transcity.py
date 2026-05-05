@@ -33,5 +33,9 @@ if __name__ == "__main__":
         tarifs.append(tarif)
         categories.append(categorie)
     #Fin de boucle for
-    #On affiche le tarif total pour tous les voyageurs
+    #On affiche le tarif total pour tous les voyageurs²
     print(f" \nTarif total pour {nombre_voyageurs} voyageur(s): {sum(tarifs):.2f} € ")
+
+# Tarif réduit senior
+tarif_senior = 0.75
+print(f"Tarif senior : {tarif_senior} €")
