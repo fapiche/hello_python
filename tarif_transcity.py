@@ -37,5 +37,5 @@ if __name__ == "__main__":
     print(f" \nTarif total pour {nombre_voyageurs} voyageur(s): {sum(tarifs):.2f} € ")
     
 # Tarif réduit senior
-tarif_senior = 0.75
+tarif_senior = 1.80
 print(f"Tarif senior : {tarif_senior} €")
