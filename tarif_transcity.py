@@ -35,7 +35,8 @@ if __name__ == "__main__":
     #Fin de boucle for
     #On affiche le tarif total pour tous les voyageurs²
     print(f" \nTarif total pour {nombre_voyageurs} voyageur(s): {sum(tarifs):.2f} € ")
-    
+
+# Ces 3 lignes sont EN DEHORS du if __name__ == "__main__":
 # Tarif réduit senior
 tarif_senior = 1.60
 print(f"Tarif senior : {tarif_senior} €")
